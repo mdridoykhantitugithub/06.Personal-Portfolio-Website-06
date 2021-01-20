@@ -1,0 +1,141 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yeon Sung', cursive;
+}
+
+
+
+#header-area{
+    height: 500px;
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.heading-half-area{
+    width: 40%;
+    float: left;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.heading-half-area h1{
+    font-size: 50px;
+}
+.heading-half-area h1 span{
+    color: orange;
+}
+.header-text p{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.header-text a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.image-half-area{
+    margin-left: 80px;
+    width: 40%;
+    float: left;
+}
+.image-half-area img{
+    width: 100%;
+}
+
+
+
+#meddel-area{
+    margin-top: 100px;
+    height: 500px;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.image-half-area{
+    float: left;
+    width: 40%;
+}
+.image-half-area img{
+    width: 100%;
+}
+.heading-half-area h2{
+    font-size: 50px;
+}
+.header-text h3{
+    font-size: 25px;
+}
+
+
+
+#experience-area{
+    margin-top: 100px;
+    height: 500px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.hedding-title h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 5px;
+}
+.full-stack-web{
+    width: 35%;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    background-color: white;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+.full-stack-web h2{
+    font-size: 35px;
+}
+.full-stack-web h4{
+    color: orange;
+    font-size: 25px;
+}
+.full-stack-web p{
+    font-size: 20px;
+}
+.baby-web{
+    width: 35%;
+    height: 300px;
+    float: right;
+    margin-right: 50px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.baby-web h2{
+    font-size: 35px;
+}
+.baby-web h4{
+    color: orange;
+    font-size: 25px;
+}
+.baby-web p{
+    font-size: 20px;
+}
+footer{
+    padding-top: 100px;
+    height: 80px;
+}
+footer div p{
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+
+
